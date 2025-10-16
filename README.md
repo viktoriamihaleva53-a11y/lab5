@@ -2,7 +2,6 @@
 
 ## Условие задачи
 Создать программу вычисления указанной величины.
-
 Результат проверить при заданных исходных значениях.
 <img width="418" height="97" alt="image" src="https://github.com/user-attachments/assets/d4e4509a-b11e-4e4d-a295-8beca7e482d7" />
 
