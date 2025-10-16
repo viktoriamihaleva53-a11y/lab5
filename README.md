@@ -23,47 +23,39 @@
 6. **Конец**
 
 ### Блок-схема
-<img width="216" height="700" alt="image (3)" src="https://github.com/user-attachments/assets/923832d5-a745-42dc-a2c0-8c1044454ccc" />
 
 
 
 ## 2. Реализация программы
-
+#include <stdio.h>
+#include <math.h>
 #include <locale.h>
 
-#include <stdio.h>
-
-#include <stdlib.h>
+#define PI 3.14159265358979323846
 
 int main() 
-
 {
-    
     setlocale(LC_ALL, "RUS");
-    
-    int A = 400;
-    int B = 2000;
-    int C = 300;
-    int D = 3000;
-    
-    printf("цена перчаток: %dp\n", A);
-    printf("цена портфеля: %dp\n", B);
-    printf("цена галстука: %dp\n", C);
-    printf("исходная сумма: %dp\n", D);
+    double x = 14.26;
+    double y = -1.22;
+    double z = 3.5e-2;
 
-    printf("Сдача: %dp\n", D - (A + B + C));
+    double t = (2.0 * cos(x - PI / 6.0)) / (0.5 + sin(y) * sin(y)) *
+        (1.0 + (z * z) / (3.0 - (z * z) / 5.0));
+
+    printf("Исходные данные: \n");
+    printf("x = %.2f\n", x);
+    printf("y = %.2f\n", y);
+    printf("z = %.2e\n\n", z);
+    printf("Результат вычисления:\n");
+    printf("t = %.6f\n", t);
+
+    return 0;
 }
 
 ## 3. Результаты работы программы
 
-цена перчаток: 400p
+<img width="268" height="158" alt="image" src="https://github.com/user-attachments/assets/a332b250-d072-404b-9cfa-17d5db4b3596" />
 
-цена портфеля: 2000p
-
-цена галстука: 300p
-
-исходная сумма: 3000p
-
-Сдача: 300p
 
 
