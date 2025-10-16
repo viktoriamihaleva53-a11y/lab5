@@ -23,7 +23,7 @@ printf("t = %.6f\n", t);
 5. **Конец**
 
 ### Блок-схема
-<img width="332" height="1124" alt="image" src="https://github.com/user-attachments/assets/390c67ca-614e-4200-8aa2-511be476b499" />
+<img width="332" height="924" alt="image" src="https://github.com/user-attachments/assets/390c67ca-614e-4200-8aa2-511be476b499" />
 
 
 ## 2. Реализация программы
